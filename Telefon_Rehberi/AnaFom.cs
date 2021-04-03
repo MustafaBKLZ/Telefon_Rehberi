@@ -43,5 +43,10 @@ namespace Telefon_Rehberi
         {
             new Kullanici_Ekle() { }.ShowDialog();
         }
+
+        private void listeyiYEnileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            dgv_Update();
+        }
     }
 }

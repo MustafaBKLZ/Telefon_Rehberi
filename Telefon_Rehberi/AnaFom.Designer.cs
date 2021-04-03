@@ -32,12 +32,12 @@ namespace Telefon_Rehberi
             this.components = new System.ComponentModel.Container();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.işlemlerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.kullanıcıİşlemleriToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.yeniKişiEkleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.kişiBilgileriniGüncelleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listeyiYEnileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.kullanıcıİşlemleriToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
@@ -62,10 +62,17 @@ namespace Telefon_Rehberi
             this.işlemlerToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.işlemlerToolStripMenuItem.Text = "İşlemler";
             // 
+            // kullanıcıİşlemleriToolStripMenuItem
+            // 
+            this.kullanıcıİşlemleriToolStripMenuItem.Name = "kullanıcıİşlemleriToolStripMenuItem";
+            this.kullanıcıİşlemleriToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
+            this.kullanıcıİşlemleriToolStripMenuItem.Text = "Kullanıcı İşlemleri";
+            this.kullanıcıİşlemleriToolStripMenuItem.Click += new System.EventHandler(this.kullanıcıİşlemleriToolStripMenuItem_Click);
+            // 
             // yeniKişiEkleToolStripMenuItem
             // 
             this.yeniKişiEkleToolStripMenuItem.Name = "yeniKişiEkleToolStripMenuItem";
-            this.yeniKişiEkleToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.yeniKişiEkleToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.yeniKişiEkleToolStripMenuItem.Text = "Yeni Kişi Ekle";
             this.yeniKişiEkleToolStripMenuItem.Click += new System.EventHandler(this.yeniKişiEkleToolStripMenuItem_Click);
             // 
@@ -85,7 +92,7 @@ namespace Telefon_Rehberi
             this.kişiBilgileriniGüncelleToolStripMenuItem,
             this.listeyiYEnileToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(194, 48);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(194, 70);
             // 
             // kişiBilgileriniGüncelleToolStripMenuItem
             // 
@@ -99,13 +106,7 @@ namespace Telefon_Rehberi
             this.listeyiYEnileToolStripMenuItem.Name = "listeyiYEnileToolStripMenuItem";
             this.listeyiYEnileToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
             this.listeyiYEnileToolStripMenuItem.Text = "Listeyi Yenile";
-            // 
-            // kullanıcıİşlemleriToolStripMenuItem
-            // 
-            this.kullanıcıİşlemleriToolStripMenuItem.Name = "kullanıcıİşlemleriToolStripMenuItem";
-            this.kullanıcıİşlemleriToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.kullanıcıİşlemleriToolStripMenuItem.Text = "Kullanıcı İşlemleri";
-            this.kullanıcıİşlemleriToolStripMenuItem.Click += new System.EventHandler(this.kullanıcıİşlemleriToolStripMenuItem_Click);
+            this.listeyiYEnileToolStripMenuItem.Click += new System.EventHandler(this.listeyiYEnileToolStripMenuItem_Click);
             // 
             // AnaFom
             // 
