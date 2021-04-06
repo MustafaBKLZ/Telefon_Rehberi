@@ -104,5 +104,8 @@
     </Compile>
     <None Include="telefon rehber.bak" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Telefon_Rehberi.sql" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
